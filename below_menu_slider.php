@@ -218,7 +218,7 @@ color: #FFF;
     switch(n)
     {
             case '1':
-                  $('#result').html("1st radio button");
+                  $('#result').html("<h1>Hello</h1>");
                   break;
             case '2':
                   $('#result').html("2nd radio button");
