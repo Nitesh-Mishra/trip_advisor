@@ -7,6 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Image Gallery</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
@@ -24,7 +25,7 @@
     </style>
     <!-- This id for image CSS -->
     <style type="text/css">
-    	img {
+    	.imgclass {
 		  filter: gray; /* IE6-9 */
 		  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 		    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
@@ -49,7 +50,7 @@
 	<div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
         	<div class="col-md-6 col-sm-6 col-xs-6">
-        		<img class="img-responsive" src="images/image11.jpg" alt="Images">
+        		<img class="img-responsive imgclass" src="images/image11.jpg" alt="Images">
         		
         	</div>
         	<div class="col-md-6 col-sm-6 col-xs-6">
@@ -66,42 +67,42 @@
           
             <div class="col-lg-3 col-md-4 col-xs-6 ">
             	<a class="gallery" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="This is a first Image." data-image="images/image5.jpg" data-target="#image-gallery">
-                	<img class="img-responsive" src="images/image5.jpg" alt="Images">
+                	<img class="img-responsive imgclass" src="images/image5.jpg" alt="Images">
             	</a>
         	</div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             	<a class="gallery" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="This is a second Image." data-image="images/image6.jpg" data-target="#image-gallery">
-                	<img class="img-responsive" src="images/image6.jpg" alt="Images">
+                	<img class="img-responsive imgclass" src="images/image6.jpg" alt="Images">
             	</a>
         	</div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             	<a class="gallery" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="This is a Third image." data-image="images/image7.jpg" data-target="#image-gallery">
-                	<img class="img-responsive" src="images/image7.jpg" alt="Images">
+                	<img class="img-responsive imgclass" src="images/image7.jpg" alt="Images">
             	</a>
         	</div>
         	<div class="col-lg-3 col-md-4 col-xs-6 thumb">
             	<a class="gallery" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="This is a Third image." data-image="images/image8.jpg" data-target="#image-gallery">
-                	<img class="img-responsive" src="images/image8.jpg" alt="Images">
+                	<img class="img-responsive imgclass" src="images/image8.jpg" alt="Images">
             	</a>
         	</div>
         	<div class="col-lg-3 col-md-4 col-xs-6 thumb">
             	<a class="gallery" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="This is a Third image." data-image="images/image9.jpg" data-target="#image-gallery">
-                	<img class="img-responsive" src="images/image9.jpg" alt="Images">
+                	<img class="img-responsive imgclass" src="images/image9.jpg" alt="Images">
             	</a>
         	</div>
         	<div class="col-lg-3 col-md-4 col-xs-6 thumb">
             	<a class="gallery" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="This is a Third image." data-image="images/image1.jpg" data-target="#image-gallery">
-                	<img class="img-responsive" src="images/image1.jpg" alt="Images">
+                	<img class="img-responsive imgclass" src="images/image1.jpg" alt="Images">
             	</a>
         	</div>
         	<div class="col-lg-3 col-md-4 col-xs-6 thumb">
             	<a class="gallery" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="This is a Third image." data-image="images/image2.jpg" data-target="#image-gallery">
-                	<img class="img-responsive" src="images/image2.jpg" alt="Images">
+                	<img class="img-responsive imgclass" src="images/image2.jpg" alt="Images">
             	</a>
         	</div>
         	<div class="col-lg-3 col-md-4 col-xs-6 thumb">
             	<a class="gallery" href="#" data-image-id="" data-toggle="modal" data-title="This is my title" data-caption="This is a Third image." data-image="images/image3.jpg" data-target="#image-gallery">
-                	<img class="img-responsive" src="images/image3.jpg" alt="Images">
+                	<img class="img-responsive imgclass" src="images/image3.jpg" alt="Images">
             	</a>
         	</div>
 	</div>
