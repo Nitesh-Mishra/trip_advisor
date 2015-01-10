@@ -43,10 +43,10 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">More<b class="caret"></b></a>
       <ul class="dropdown-menu">
       
-        <li><a href="#">Action</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-        <li><a href="#">One more separated link</a></li>
+        <li><a href="show_image.php">Show Image</a></li>
+        <li><a href="directory.php">Directory</a></li>
+        <li><a href="contactus.php">Contact Us</a></li>
+        
       </ul>
       </li>
     </ul>

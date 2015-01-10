@@ -10,7 +10,7 @@
     </button>    
   </div>
   <div class="navbar-brand col-sm-3 col-md-3">
-  		<img src="images/logo.png" alt="Image Logo">
+  		<a href="index.php"><img src="images/logo.png" alt="Image Logo"></a>
   </div>
   <div class="navbar-collapse collapse">
     
