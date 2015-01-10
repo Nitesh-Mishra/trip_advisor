@@ -4,11 +4,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-    <title>Infinite carousel (loop) multi-Item - Bootsnipp.com</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     
+    <title> Trip Advisor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <style type="text/css">
         .carousel-inner .active.left { left: -33%; }
         .carousel-inner .next        { left:  33%; }
@@ -89,7 +89,7 @@ Start -->
 
 <br/>
 
-<!-- End -->
+	<!-- End -->
 
 
 	<div class="col-md-12">
