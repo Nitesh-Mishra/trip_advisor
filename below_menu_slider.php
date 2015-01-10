@@ -162,22 +162,24 @@ color: #FFF;
               <div class="col-md-12 divonimage" >
                 <div class="radio">
                   <label>
-                    <input type="radio" name="optionsRadios" id="hotels" value="option1" checked>
+                    <input type="radio" name="optionsRadios" id="hotels" value="1" checked>
                       Hotels
                   </label>
                   <label>
-                    <input type="radio" name="optionsRadios" id="restaurants" value="option1" checked>
+                    <input type="radio" name="optionsRadios" id="restaurants" value="2" checked>
                       Restaurants
                   </label>
                   <label>
-                    <input type="radio" name="optionsRadios" id="flights" value="option1" checked>
+                    <input type="radio" name="optionsRadios" id="flights" value="3" checked>
                       Flights
                   </label>
                   <label>
-                    <input type="radio" name="optionsRadios" id="destinations" value="option1" checked>
+                    <input type="radio" name="optionsRadios" id="destinations" value="4" checked>
                       Destinations
                   </label>
                 </div>
+                <!-- div to show clicked content -->
+                <div id="result"></div>
               </div>
               
               </div>
@@ -209,6 +211,27 @@ color: #FFF;
     </div>
   </div> 
 </div>
-
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('input[name=optionsRadios]').on('change', function(){
+    var n = $(this).val();
+    switch(n)
+    {
+            case '1':
+                  $('#result').html("1st radio button");
+                  break;
+            case '2':
+                  $('#result').html("2nd radio button");
+                  break;
+            case '3':
+                  $('#result').html("3rd radio button");
+                  break;
+            case '4':
+                  $('#result').html("4rd radio button");
+                  break;
+        }
+    });
+});
+</script>
 </body>
 </html>
