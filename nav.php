@@ -16,8 +16,9 @@
     
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#">Join</a></li>
-      <li><a href="#">Login</a></li>
+      <li><a href="login.php">Login</a></li>
       <li><a href="#"><img src="images/facebook24*24.png"></a></li>
     </ul>
   </div>
 </nav>
+
