@@ -8,17 +8,6 @@
     <title> Trip Advisor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <style type="text/css">
-        .carousel-inner .active.left { left: -33%; }
-        .carousel-inner .next        { left:  33%; }
-        .carousel-inner .prev        { left: -33%; }
-        .carousel-control.left,.carousel-control.right {background-image:none;}
-        .item:not(.prev) {visibility: visible;}
-        .item.right:not(.prev) {visibility: hidden;}
-        .rightest{ visibility: visible;}
-
-    </style>
     <style type="text/css">
     	hr {
 			  -moz-border-bottom-colors: none;
@@ -32,6 +21,17 @@
 			  margin: 18px 0;
 			}
     </style>
+    <style type="text/css">
+        .carousel-inner .active.left { left: -33%; }
+        .carousel-inner .next        { left:  33%; }
+        .carousel-inner .prev        { left: -33%; }
+        .carousel-control.left,.carousel-control.right {background-image:none;}
+        .item:not(.prev) {visibility: visible;}
+        .item.right:not(.prev) {visibility: hidden;}
+        .rightest{ visibility: visible;}
+
+    </style>
+    
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
@@ -349,8 +349,8 @@ Start -->
 
 	<hr/>
 
-	
-	
+
+
 </div>
 
 <?php include("footer.php"); ?>

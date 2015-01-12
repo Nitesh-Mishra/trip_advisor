@@ -46,7 +46,7 @@
         <li><a href="show_image.php">Show Image</a></li>
         <li><a href="directory.php">Directory</a></li>
         <li><a href="contactus.php">Contact Us</a></li>
-        
+        <li><a href="add_member.php">Add Member</a></li>
       </ul>
       </li>
     </ul>

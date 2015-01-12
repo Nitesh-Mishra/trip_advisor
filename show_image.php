@@ -11,17 +11,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
-    	hr {
-			  -moz-border-bottom-colors: none;
-			  -moz-border-image: none;
-			  -moz-border-left-colors: none;
-			  -moz-border-right-colors: none;
-			  -moz-border-top-colors: none;
-			  border-color: #337AB7;
-			  border-style: solid none;
-			  border-width: 3px 0;
-			  margin: 18px 0;
-			}
+        hr {
+              -moz-border-bottom-colors: none;
+              -moz-border-image: none;
+              -moz-border-left-colors: none;
+              -moz-border-right-colors: none;
+              -moz-border-top-colors: none;
+              border-color: #337AB7;
+              border-style: solid none;
+              border-width: 3px 0;
+              margin: 18px 0;
+            }
     </style>
     <!-- This id for image CSS -->
     <style type="text/css">
